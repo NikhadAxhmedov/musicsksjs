@@ -9,22 +9,22 @@ from helpers.filters import command, other_filters2
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgQAAxkBAAI8bmKIvgnlJyCrq9HIxSvCZCbm5CEjAAIaEAACpvFxHg-Z648-SCRWJAQ")
     await message.reply_text(
-      f"""**{bot} Sizi Salamlayır👋🏻\n\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam\n\n✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin\n\n🆘 Hər hansı problemlə qarşılaşsanız @UlviSup qrupumuza gəlib bildirə bilərsiniz!\n\n🎵 Musiqi yükləmək üçün digər botumuz: @Ulvi_Music_Bot\n\n🤖 Digər Botlar: @UlviProject**
+      f"""**{bot} Sizi Salamlayır👋🏻\n\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam\n\n✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin\n\n🆘 Hər hansı problemlə qarşılaşsanız @Nixhadj bildirə bilərsiniz!\n\n🎵 Musiqi yükləmək üçün digər botumuz: @NaathanielSongBot\n\n🤖 Kanal: @Naathaniel**
       """,
          reply_markup
          =InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/Ulvi_Music_Bot?startgroup=true"
+                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/NathanielMusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧔🏻 Sahibim", url="https://t.me/BrendUIvi"
+                        "🧔🏻 Sahibim", url="https://t.me/Nixhadj"
                     ),
                     InlineKeyboardButton(
-                        "🇦🇿 Rəsmi Kanal", url="https://t.me/UlviProject"
+                        "🇦🇿 Rəsmi Kanal", url="https://t.me/NathanielBots"
                     )
                 ],
                 [
@@ -115,15 +115,15 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/Ulvi_Music_Bot?startgroup=true"
+                        "➕ Məni öz qrupuna əlavə et ➕", url=f"https://t.me/NathanielMusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧔🏻 Sahibim", url="https://t.me/BrendUIvi"
+                        "🧔🏻 Sahibim", url="https://t.me/Nixhadj"
                     ),
                     InlineKeyboardButton(
-                        "🇦🇿 Rəsmi Kanal", url="https://t.me/UlviProject"
+                        "🇦🇿 Rəsmi Kanal", url="https://t.me/NathanielBots"
                     )
                 ],
                 [
