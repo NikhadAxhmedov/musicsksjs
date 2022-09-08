@@ -39,7 +39,7 @@
     "BOT_OWNER": {
       "description": "Öz tag adını yaz",
       "required": true,
-      "value": "BrendUIvi"
+      "value": "NikhadAxhmedov"
     },
     "DURATION_LIMIT": {
       "description": "Yükləmələr üçün maksimum audio vaxt limiti (dəqiqə).",
