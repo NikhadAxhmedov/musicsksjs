@@ -7,9 +7,9 @@ from helpers.filters import command, other_filters2
 
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgQAAxkBAAI8bmKIvgnlJyCrq9HIxSvCZCbm5CEjAAIaEAACpvFxHg-Z648-SCRWJAQ")
+    await message.reply_sticker("CAACAgIAAxkBAAFQ40ZjF2VkjL-E0qoyWovAt1ZkjyF-SAACegEAAhAabSKcnbdITu9y3ikE")
     await message.reply_text(
-      f"""**{bot} Sizi Salamlayır👋🏻\n\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam\n\n✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin\n\n🆘 Hər hansı problemlə qarşılaşsanız @Nixhadj bildirə bilərsiniz!\n\n🎵 Musiqi yükləmək üçün digər botumuz: @NaathanielSongBot\n\n🤖 Kanal: @Naathaniel**
+      f"""**{bot} Sizi Salamlayır👋🏻\n\nℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam\n\n✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin\n\n🆘 Hər hansı problemlə qarşılaşsanız @Nixhadj bildirə bilərsiniz!\n\n🎵 Musiqi yükləmək üçün digər botumuz: @NaathanielSongBot\n\n🤖 Kanal: @Naathaniel Reklam 5 AZN!🇦🇿 Ucuz repoların Satışı üçün @Nixhadj Yazın.**
       """,
          reply_markup
          =InlineKeyboardMarkup(
